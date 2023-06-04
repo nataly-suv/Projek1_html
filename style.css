@@ -1,0 +1,31 @@
+/* сбрасываем все отступы */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    padding-bottom: 96px;
+}
+
+.header{
+    margin-top: 40px;
+}
+
+.top__content{
+    padding-top: 84px;
+    padding-bottom: 162px;
+
+}
+
+.title__h1{    
+    margin-bottom: 17px;
+}
+
+.top__button{
+    margin-top: 37px;   
+}
+
+.top__logo{
+    padding-top: 97px;
+}
