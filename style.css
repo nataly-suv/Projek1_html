@@ -87,7 +87,7 @@ body {
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
     font-size: 15px;
-    color:#ffff; 
+    color: #ffff;
     border: #F25822;
 }
 
@@ -98,4 +98,129 @@ body {
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
+}
+
+.skils {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+    align-content: center;
+}
+
+.skils__items {
+    padding: 40px 31px 25px 29px;
+    display: grid;
+    gap: 25px;
+}
+
+.skils__items_2 {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.skils__img {
+    width: 70px;
+    height: 70px;
+}
+
+.skils__title__h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.skils__text {
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.skils__link {
+    font-size: 11px;
+    line-height: 150%;
+    font-weight: bold;
+}
+
+.choose {
+    padding-top: 92px;
+    padding-bottom: 100px;
+    background: #FAFAFA;
+}
+
+.choose__title {
+    margin-bottom: 17px;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+}
+
+.choose__text {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+
+}
+
+.choose__items {
+    margin-top: 54px;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(3, 370px);
+}
+
+.choose__item {
+    background: #FFFFFF;
+    display: grid;
+    justify-items: center;
+}
+
+.choose__item2 {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.choose_img {
+    width: 370px;
+    height: 300px;
+}
+
+.choose__item__title {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+
+.choose_item_text {
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.choose__button {
+    margin-top: 39px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-size: 15px;
+    border: #F25822;
+ }
+
+.choose_link {
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
 }
