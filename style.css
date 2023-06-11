@@ -71,6 +71,13 @@ body {
 
 .top__button {
     margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 77px;
 }
 
 .button {
